@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanka jena</title>
+
+    <!-- all external links are here  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/one.css">
+    <link rel="stylesheet" href="css/two.css">
+    <link rel="stylesheet" href="css/three.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body>
+    <main>
+        <div class="one">
+            <nav class="navbar">
+                <div id="typing-text" class="title"></div>
+                <ul class="navlinks">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#about">Contact me</a></li>
+                </ul>
+            </nav>
+
+            <div class="para" class="firstpara">
+                <p>📍ODISHA <br>
+                    ~Just Jena Things~ <br>
+                    जो दिल में आए कर लो, की फरक पैंदा है ♥️</p>
+            </div>
+        </div>
+
+        <div class="two">
+            <div class="box">
+                <h1>Elegant</h1>
+                <h1>Gorgeous</h1>
+                <h1>Charming</h1>
+                <h1>Enchanting</h1>
+            </div>
+
+            <div class="boxtwo"></div>
+        </div>
+
+        <div class="three"></div>
+    </main>
+
+    <!-- the main section is end here  -->
+
+    <section class="aboutme" id="about">
+        <div class="partone">
+            <h1>About Me</h1>
+            <p>The girl who eyes are full of hope, possibility & dreams</p>
+        </div>
+
+        <div class="parttwo">
+            <div class="left">
+                <div class="imgbox"></div>
+            </div>
+
+            <div class="right">
+                <h3>Priyanka jena</h3>
+                <p class="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veritatis
+                    similique maiores! Vel
+                    animi, eveniet sit doloremque, repellat id praesentium quod rem vero, atque consequuntur iure sint
+                    facilis nihil veniam!
+                    Ad quisquam harum beatae error architecto sint repellendus, aliquam quae non voluptates! Illo magni,
+                    numquam rem vel rerum quod aut! Illum praesentium officiis quasi repellendus ullam sit tempora et
+                    natus!
+                    Deserunt quam fuga iste architecto ipsa tempora doloribus. Sunt ea ullam distinctio autem facere
+                    velit, ab officia,, .</p>
+                <button><a href="https://www.instagram.com/priyankaa_jena/" class="connect" target="-blank">Contact
+                        me</a></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about section is end here  -->
+
+    <section class="contact">
+
+    </section>
+
+
+
+
+
+    <script>
+        const text = "Priyanka jena";
+        let index = 0;
+
+        function type() {
+            document.getElementById('typing-text').innerText = text.slice(0, index);
+            index++;
+
+            if (index > text.length) {
+                index = 0;
+            }
+
+            setTimeout(type, 300); // Adjust the typing speed (milliseconds)
+        }
+
+        type();
+    </script>
+</body>
+
+</html>
