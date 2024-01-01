@@ -1,0 +1,62 @@
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-image: url(bgone.jpg);
+    background-size: cover;
+    background-position: center;
+
+    color: whitesmoke;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.two h1{
+    letter-spacing: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.boxtwo{
+    height: 300px;
+    width: 200px;
+
+    background-color: red;
+
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+
+    background-image:url(bgtwo.jpg) ;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+  
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+@media screen and (max-width: 600px){
+    .two{
+        height: 100%;
+        width: 100%;
+    }
+
+    .two h1{
+        font-size: 24px;
+    }
+
+    .boxtwo{
+        height: 150px;
+         width: 150px;
+
+         right: 5%;
+         bottom: 30%;
+    }
+}
